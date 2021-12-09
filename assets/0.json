@@ -1,0 +1,19 @@
+{
+  "name": "KENDALL_ROY",
+  "symbol": "KR",
+  "image": "0.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "CzQB51M6Z7JPR1aB5CYmrXsY9twNW9NAN6FHcRjvFhr7",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ROMAN_ROY",
+  "symbol": "RR",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "CzQB51M6Z7JPR1aB5CYmrXsY9twNW9NAN6FHcRjvFhr7",
+        "share": 100
+      }
+    ]
+  }
+}
