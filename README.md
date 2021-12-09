@@ -18,4 +18,6 @@ If you use VSCode to build your app, we included a list of suggested extensions 
 Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/CO77556be5-25e9-49dd-a799-91a2fc29520e) and link your Discord account so you can get access to helpful channels and your instructor!
 
 Hc9Y4C52SNPVpon98E4mDaMEzyWVti5m9Wa1sfqybHsm
-CM: 5hbw5ZcAHynP51ddnvdWmx3tQBrDmLsytYCSsSekLUac
+
+wallet: CzQB51M6Z7JPR1aB5CYmrXsY9twNW9NAN6FHcRjvFhr7
+CM: 8nuTjoggZSbBYCacgDuj9zQyAy4ECPqzpU8fnw3SRDCp

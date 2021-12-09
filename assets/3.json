@@ -1,11 +1,11 @@
 {
-  "name": "SIOBHAN_ROY_NFT",
-  "symbol": "SR",
-  "image": "1.png",
+  "name": "GREGORY_HIRSCH_NFT",
+  "symbol": "GH",
+  "image": "3.png",
   "properties": {
     "files": [
       {
-        "uri": "1.png",
+        "uri": "3.png",
         "type": "image/png"
       }
     ],

@@ -1,1 +1,43 @@
-{"program":{"uuid":"Hc9Y4C","config":"Hc9Y4C52SNPVpon98E4mDaMEzyWVti5m9Wa1sfqybHsm"},"items":{"0":{"link":"https://arweave.net/YurETbnFgv1JetbZEc34n-jeqiNKU2atFFsuW_OwyWs","name":"KENDALL_ROY","onChain":true},"1":{"link":"https://arweave.net/JP2CjAddpjDrVf_s1RHlRewmbQSaIzUumeNinFIlxik","name":"SIOBHAN_ROY","onChain":true},"2":{"link":"https://arweave.net/iUi9yKLG0C5fqGNsskHMqBs0VygEZZvgoZrX9FURq98","name":"ROMAN_ROY","onChain":true}},"env":"devnet","cacheName":"temp","authority":"CzQB51M6Z7JPR1aB5CYmrXsY9twNW9NAN6FHcRjvFhr7","candyMachineAddress":"5hbw5ZcAHynP51ddnvdWmx3tQBrDmLsytYCSsSekLUac","startDate":1669853520}
+{
+  "program": {
+    "uuid": "GWghqZ",
+    "config": "GWghqZxUoUFRTNzg7HmyH6WN4iyDwizCWNvWTgs1rHfU"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/kUsPvEAMlI171Vzw1LOapSOy_e6lCDKB6vGaeP-nEx4",
+      "name": "KENDALL_ROY_NFT",
+      "onChain": true
+    },
+    "1": {
+      "link": "https://arweave.net/_9Yo9tv6aqfrMihSbvzc4wX30oIln1I1SFOZdcDuVZM",
+      "name": "SIOBHAN_ROY_NFT",
+      "onChain": true
+    },
+    "2": {
+      "link": "https://arweave.net/WVIMblhN8h-RGGkGCKyFAgNhJGo_bgf21eh5zzJxUrE",
+      "name": "ROMAN_ROY_NFT",
+      "onChain": true
+    },
+    "3": {
+      "link": "https://arweave.net/ibgGPuKkI2mm5hlvuayzm1JGHfS6mcundNsGqofr5nE",
+      "name": "GREGORY_HIRSCH_NFT",
+      "onChain": true
+    },
+    "4": {
+      "link": "https://arweave.net/u9suNBfq9OorGVGt-hxVbJJ3n3225pzPwxQIWU1TJNs",
+      "name": "TOM_WAMBSGANS_NFT",
+      "onChain": true
+    },
+    "5": {
+      "link": "https://arweave.net/eYMqy1pdnoyUfeOSSotLAsiq45WbXTMcdkHeh0driAA",
+      "name": "LOGAN_ROY_NFT",
+      "onChain": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp",
+  "authority": "CzQB51M6Z7JPR1aB5CYmrXsY9twNW9NAN6FHcRjvFhr7",
+  "candyMachineAddress": "8nuTjoggZSbBYCacgDuj9zQyAy4ECPqzpU8fnw3SRDCp",
+  "startDate": 1639326600
+}

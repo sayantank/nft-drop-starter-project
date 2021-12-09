@@ -61,19 +61,22 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">✨ Waystar Royco ✨</p>
-          <p className="sub-text">Get your own Succession NFT for 0.1 SOL!</p>
+          <p className="header">S U C C E S S I O N</p>
+          <p className="sub-text">Get your own Roy family NFT for 0.1 SOL</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          {/* <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} /> */}
           <a
             className="footer-text"
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >
+            built on <span className="twt-link">@{TWITTER_HANDLE}</span> with{" "}
+            <b>Solana</b> 🤍
+          </a>
         </div>
       </div>
     </div>

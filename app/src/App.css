@@ -1,9 +1,15 @@
-.App {
-  height: 100vh;
+body {
   background-color: rgb(20, 20, 20);
-  overflow: scroll;
+}
+.App {
+  margin: 3rem 0;
+  background-color: rgb(20, 20, 20);
   text-align: center;
   overflow: hidden;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -11,7 +17,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 30px 0 30px;
   color: white;
   position: relative;
   /* background-color: #35aee2; */
@@ -26,16 +31,26 @@
 
 .header-container {
   /* background-color: #60c657; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .sub-text {
-  font-size: 25px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .gradient-text {
@@ -58,27 +73,45 @@
 }
 
 .connect-wallet-button {
+  background: transparent;
+  border-radius: 0.2rem;
+  border: solid gray 1px;
   color: white;
-  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  font-family: "Montserrat", sans-serif;
+  /* background: -webkit-linear-gradient(left, #ff8867, #ff52ff); */
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.2s;
+}
+
+.connect-wallet-button:hover {
+  background: white;
+  color: black;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: transparent;
+  color: gold;
+  border-radius: 0.2rem;
+  border: solid gold 1px;
+  font-family: "Montserrat", sans-serif;
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.2s;
   margin-left: 10px;
+}
+
+.mint-button:hover {
+  background: gold;
+  color: black;
 }
 
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
+  margin-top: 2rem;
   /* padding-bottom: 45px; */
 }
 
@@ -88,12 +121,20 @@
 }
 
 .footer-text {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 0.8rem;
   color: white;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
-.connected-container input[type='text'] {
+.twt-link {
+  font-weight: bold;
+}
+.twt-link:hover {
+  text-decoration: underline;
+}
+
+.connected-container input[type="text"] {
   display: inline-block;
   padding: 10px;
   width: 50%;
@@ -142,5 +183,17 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    font-size: 1.6rem;
+    word-wrap: break-word;
+  }
+
+  .connect-wallet-button {
+    width: 70%;
+    margin-bottom: 1rem;
   }
 }
