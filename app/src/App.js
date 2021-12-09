@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import twitterLogo from "./assets/twitter-logo.svg";
 import CandyMachine from "./CandyMachine";
 
 // Constants
@@ -62,7 +61,11 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <p className="header">S U C C E S S I O N</p>
-          <p className="sub-text">Get your own Roy family NFT for 0.1 SOL</p>
+          <p className="sub-text">
+            Get your own Roy family NFT. <br /> <br /> Don't worry, it's not
+            real money. These NFTs are deployed to the <b>devnet</b>.
+          </p>
+          <p className=""></p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
